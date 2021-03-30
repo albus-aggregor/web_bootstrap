@@ -38,9 +38,13 @@ body{
 .row.navbar.navbar-expand-sm.navbar-light.py-3.pl-0 .col.col-lg-6.col-md-8.collapse.navbar-collapse.navbar-nav .nav-item.nav-link:hover{
 	color: #f05d7a;
 }
+.row.row4 .col.nav .nav-item{
+	padding: 0 1.5rem;
+}
 @media (min-width: 320px) and (max-width: 767px) {
 	.col.col-lg-6.px-0.col-md-8 .col.col-lg-12.px-0.display-2{
 		font-size: 3.5rem!important;
+		font-weight: 500!important;
 	}
 	.row.row1.pt-4 .col.col-md-12 .card{
 		margin: 0 auto;
@@ -69,6 +73,9 @@ body{
 	.row.row4 .col.nav img{
 		width: 20%;
 		height: 50%;
+	}
+	.row.row4 .col.nav .nav-item{
+		padding: 0 .5rem;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
